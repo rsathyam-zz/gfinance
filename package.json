@@ -1,0 +1,23 @@
+{
+  "name": "gfinance",
+  "version": "1.0.0",
+  "description": "A library to query snapshot of finance data from Google Finance",
+  "main": "gfinance.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "finance"
+  ],
+  "author": "rsathyam",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "mocha": "^2.4.4",
+    "promise": "^7.1.1",
+    "request": "^2.69.0",
+    "require": "^2.4.20",
+    "scraperjs": "^1.2.0",
+    "sinon": "^1.17.3"
+  }
+}
